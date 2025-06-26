@@ -1,0 +1,27 @@
+{
+  "name": "landing-page-zeal",
+  "version": "1.0.0",
+  "description": "Zeal's Landing Page - A modern responsive website",
+  "main": "index.html",
+  "scripts": {
+    "build-css": "sass assets/main.scss assets/css/main.css --style=compressed",
+    "watch-css": "sass assets/main.scss assets/css/main.css --watch --style=expanded",
+    "serve": "live-server --host=localhost --port=3000 --open=/index.html",
+    "dev": "npm run watch-css & npm run serve",
+    "build": "npm run build-css"
+  },
+  "keywords": [
+    "landing-page",
+    "responsive",
+    "sass",
+    "html5",
+    "css3"
+  ],
+  "author": "Zeal",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^9.2.0",
+    "live-server": "^1.2.2",
+    "sass": "^1.89.2"
+  }
+}
