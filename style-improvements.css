@@ -3,3 +3,10 @@
   --primary-color: #2c3e50;
   --accent-color: #e74c3c;
 }
+/* CSS Enhancement 2: Modern button styles */
+.btn {
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
