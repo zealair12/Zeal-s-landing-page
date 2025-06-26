@@ -90,3 +90,19 @@ html {
   height: 50px;
   cursor: pointer;
 }
+
+/* CSS Enhancement 10: Media queries for mobile responsiveness */
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .navbar {
+    padding: 0.5rem 0;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+}
